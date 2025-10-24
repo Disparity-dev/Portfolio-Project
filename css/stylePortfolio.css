@@ -1,28 +1,36 @@
 body {
-
+    width: 100%;
+    background-color: rgb(33, 56, 58);
+    color: white;
 }
 
-header {
-
+#mainNavbar {
+    display: block;
+    float: right;
+    margin-left: 20px;
 }
 
-footer {
-    
+.navbar-nav {
+    display: flex;
+    float: right;
+    font-size: 22px;
+    justify-content: space-between;
+    padding: 12px
 }
 
-h1 {
-
+.navbar-nav li {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-h2 {
-
+h1, h5 {
+    display: inline-flex;
+    white-space: nowrap;
+    margin-left: 20px;
+    color:rgb(250, 173, 109);
 }
 
-h3 {
-
-}
-
-h4 {
-
+.intro {
+    margin-top: 40px;
 }
 
