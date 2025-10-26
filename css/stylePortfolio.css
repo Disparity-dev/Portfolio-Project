@@ -34,3 +34,10 @@ h1, h5 {
     margin-top: 40px;
 }
 
+ul {
+    list-style-type: none;
+}
+
+footer {
+    margin-top: 22px;
+}
