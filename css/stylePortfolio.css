@@ -2,12 +2,13 @@ body {
     width: 100%;
     background-color: rgb(33, 56, 58);
     color: white;
+    margin: 0;
 }
 
 #mainNavbar {
     display: block;
     float: right;
-    margin-left: 20px;
+    margin-left: 0px;
 }
 
 .navbar-nav {
@@ -26,18 +27,32 @@ body {
 h1, h5 {
     display: inline-flex;
     white-space: nowrap;
-    margin-left: 20px;
     color:rgb(250, 173, 109);
 }
 
-.intro {
-    margin-top: 40px;
-}
-
-ul {
+.contact ul {
+    display: block;
+    text-align: center;
+    margin-left: -40px;
     list-style-type: none;
 }
 
 footer {
+    max-width: 100%;
     margin-top: 22px;
+}
+
+.webTitle {
+    margin-left: 20px;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;   
+}
+
+.myPicture {
+    display: flex;
+    justify-content: center;
 }
